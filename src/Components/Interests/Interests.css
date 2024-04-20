@@ -1,0 +1,58 @@
+.interests{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 60px;
+    margin: 60px 20px;
+}
+
+.interests-title{
+    position: relative;
+    margin-bottom: -10px;
+}
+
+.interests-title h1{
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.interests-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.interests-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: -30px;
+}
+
+.interests-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.interests-format img{
+    width: 220px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.interests-format:hover{
+    border: 2px solid;
+    border-color: rgb(76, 238, 100);
+    transform: scale(1.05);
+    transition: 0.4s;
+}
