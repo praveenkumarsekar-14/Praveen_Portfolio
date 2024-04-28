@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-top">
         <div className="footer-top-left">
             <img src={Praveen} alt="" />
-            <p>I am a frontend developer from Chennai, India with 3.2 years of experience in Accenture Solutions Private Limited</p>
+            <p>I am a frontend developer from Chennai, India with 3.4 years of experience in Accenture Solutions Private Limited</p>
         </div>
         <div className="footer-top-right">
             <div className="footer-email-input">

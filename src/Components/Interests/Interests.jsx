@@ -5,7 +5,7 @@ import interests from '../../assets/interests'
 
 const Interests = () => {
   return (
-    <div className='interests'>
+    <div id='interests' className='interests'>
         <div className="interests-title">
             <h1>Interests</h1>
             <img src={theme_pattern} alt="" />
